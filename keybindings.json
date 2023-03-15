@@ -1,0 +1,30 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+  {
+    "key": "shift+alt+l",
+    "command": "workbench.action.duplicateWorkspaceInNewWindow"
+  },
+  {
+    "key": "shift+ctrl+up",
+    "command": "editorScroll",
+    "args": {
+      "to": "up",
+      "by": "page",
+      "value": 1,
+      "revealCursor": true,
+      "preserveFocus": true
+    },
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+ctrl+down",
+    "command": "editorScroll",
+    "args": {
+      "to": "down",
+      "by": "page",
+      "value": 1,
+      "revealCursor": true,
+      "preserveFocus": true
+    }
+  }
+]
